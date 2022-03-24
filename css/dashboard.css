@@ -1,0 +1,156 @@
+body{
+    /* background: url('https://source.unsplash.com/vC8wj_Kphak') center/cover; */
+
+}
+
+#mainsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.form-container input{
+    margin: 10px;
+    height: 30px;
+    border: none;
+    box-shadow: 0px 10px 13px -7px #5c5c5c, -20px 14px 13px 5px rgba(0,0,0,0);
+    border-radius: 5px;
+    outline: none;
+}
+.form-container input[type="submit"]{
+    background-color: #eba016;
+    color: #fff;
+    cursor: pointer;
+}
+#navbar {
+    margin: 0;
+}
+.navbar-icons {
+    margin: 0;
+}
+
+div {
+    margin-top: 15px;
+}
+input{
+    width: 100%;
+}
+.user-table {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+.content-table thead tr {
+    background-color: #eba016;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+.content-table th, .content-table td  {
+    padding: 12px 15px;
+}
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #eba016;
+}
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #eba016;
+}
+
+.insert-update {
+    display: flex;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+.insert-update form {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: left
+}
+
+.insert-update input{
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin: 5px;
+    font-family: 'Roboto' sans-serif;
+}
+
+.insert-update input[type="submit"] {
+    margin-top: 10px;
+    font-weight: 400;
+    text-align: center;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    color: white;
+    background-color: #eba016;
+    height: 30px;
+    cursor: pointer;
+}
+.btn-delete {
+    margin-top: 10px;
+    font-weight: 400;
+    text-align: center;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    color: white;
+    background-color: #eba016;
+    height: 30px;
+    cursor: pointer;
+}
+
+#category{
+    height: 30px; 
+    border-radius: 5px;
+    font-size: 17px;
+    color:#777;
+    background: #fff !important;
+    border:none;
+    width: 100%;
+}
+
+#category:focus{
+    outline: none;
+}
+
+input[type=file]::file-selector-button {
+    border: none;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+    background-color: #ccb78f;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+}
